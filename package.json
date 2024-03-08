@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next",
+    "dev": "NEXT_OTEL_VERBOSE=1 next",
     "build": "next build",
     "start": "next start",
     "start:otel-verbose": "NEXT_OTEL_VERBOSE=1 next start"
