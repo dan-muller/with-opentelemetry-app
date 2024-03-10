@@ -1,4 +1,4 @@
-import { fetchGithubStars } from "../shared/fetch-github-stars";
+import { fetchGithubStars } from "./actions";
 
 export default async function Page() {
   const stars = await fetchGithubStars();
